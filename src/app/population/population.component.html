@@ -3,7 +3,7 @@
     <div class="row">
         <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
 
-            <table class="table">
+            <table class="table table-secondary table-striped">
                 <thead>
                   <tr>
                     <th scope="col">Id Nation</th>
@@ -17,12 +17,12 @@
                 <tbody class="table-group-divider">
                   <tr *ngFor="let i of popData.data">
                    
-                    <td>{{i.ID Nation}}</td>
+                    <td>{{i.IDNation}}</td>
                     <td>{{i.Nation}}</td>
-                    <td>{{i.ID Year}}</td>
+                    <td>{{i.IDYear}}</td>
                     <td>{{i.Year}}</td>
                     <td>{{i.Population}}</td>
-                    <td>{{i.Slug Nation}}</td>
+                    <td>{{i.SlugNation}}</td>
                   </tr>
                  
                 </tbody>
